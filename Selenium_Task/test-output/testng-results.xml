@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="23" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="94598" started-at="2022-04-29T07:54:12 EET" finished-at="2022-04-29T07:55:46 EET">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="94598" started-at="2022-04-29T07:54:12 EET" finished-at="2022-04-29T07:55:46 EET">
+      <class name="Tests.AuthenticationTest">
+        <test-method status="PASS" signature="NavigateToAuthPage()[pri:1, instance:Tests.AuthenticationTest@3701eaf6]" name="NavigateToAuthPage" duration-ms="2839" started-at="2022-04-29T07:55:09 EET" finished-at="2022-04-29T07:55:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToAuthPage -->
+        <test-method status="PASS" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.AuthenticationTest@3701eaf6]" name="ScreenshotOnFailure" is-config="true" duration-ms="1" started-at="2022-04-29T07:55:12 EET" finished-at="2022-04-29T07:55:12 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigateToAuthPage status=SUCCESS method=AuthenticationTest.NavigateToAuthPage()[pri:1, instance:Tests.AuthenticationTest@3701eaf6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+        <test-method status="PASS" signature="AuthenticateAsNewUser()[pri:2, instance:Tests.AuthenticationTest@3701eaf6]" name="AuthenticateAsNewUser" duration-ms="7149" started-at="2022-04-29T07:55:12 EET" depends-on-methods="Tests.AuthenticationTest.NavigateToAuthPage" finished-at="2022-04-29T07:55:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuthenticateAsNewUser -->
+        <test-method status="PASS" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.AuthenticationTest@3701eaf6]" name="ScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-04-29T07:55:19 EET" finished-at="2022-04-29T07:55:19 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AuthenticateAsNewUser status=SUCCESS method=AuthenticationTest.AuthenticateAsNewUser()[pri:2, instance:Tests.AuthenticationTest@3701eaf6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+      </class> <!-- Tests.AuthenticationTest -->
+      <class name="Tests.CreateAnAccountTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:Tests.CreateAnAccountTest@5c5a1b69]" name="startDriver" is-config="true" duration-ms="21860" started-at="2022-04-29T07:54:12 EET" finished-at="2022-04-29T07:54:34 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="NavigateToAuthPage()[pri:1, instance:Tests.CreateAnAccountTest@5c5a1b69]" name="NavigateToAuthPage" duration-ms="4309" started-at="2022-04-29T07:54:34 EET" finished-at="2022-04-29T07:54:38 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToAuthPage -->
+        <test-method status="PASS" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.CreateAnAccountTest@5c5a1b69]" name="ScreenshotOnFailure" is-config="true" duration-ms="1" started-at="2022-04-29T07:54:38 EET" finished-at="2022-04-29T07:54:38 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigateToAuthPage status=SUCCESS method=CreateAnAccountTest.NavigateToAuthPage()[pri:1, instance:Tests.CreateAnAccountTest@5c5a1b69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+        <test-method status="PASS" signature="setMailAdd()[pri:2, instance:Tests.CreateAnAccountTest@5c5a1b69]" name="setMailAdd" duration-ms="3221" started-at="2022-04-29T07:54:38 EET" depends-on-methods="Tests.CreateAnAccountTest.NavigateToAuthPage" finished-at="2022-04-29T07:54:41 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMailAdd -->
+        <test-method status="PASS" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.CreateAnAccountTest@5c5a1b69]" name="ScreenshotOnFailure" is-config="true" duration-ms="1" started-at="2022-04-29T07:54:41 EET" finished-at="2022-04-29T07:54:41 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setMailAdd status=SUCCESS method=CreateAnAccountTest.setMailAdd()[pri:2, instance:Tests.CreateAnAccountTest@5c5a1b69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+        <test-method status="PASS" signature="Registration()[pri:3, instance:Tests.CreateAnAccountTest@5c5a1b69]" name="Registration" duration-ms="24304" started-at="2022-04-29T07:54:41 EET" depends-on-methods="Tests.CreateAnAccountTest.setMailAdd" finished-at="2022-04-29T07:55:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.CreateAnAccountTest@5c5a1b69]" name="ScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-04-29T07:55:06 EET" finished-at="2022-04-29T07:55:06 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Registration status=SUCCESS method=CreateAnAccountTest.Registration()[pri:3, instance:Tests.CreateAnAccountTest@5c5a1b69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+        <test-method status="PASS" signature="logOut()[pri:4, instance:Tests.CreateAnAccountTest@5c5a1b69]" name="logOut" duration-ms="3326" started-at="2022-04-29T07:55:06 EET" depends-on-methods="Tests.CreateAnAccountTest.Registration" finished-at="2022-04-29T07:55:09 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.CreateAnAccountTest@5c5a1b69]" name="ScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-04-29T07:55:09 EET" finished-at="2022-04-29T07:55:09 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOut status=SUCCESS method=CreateAnAccountTest.logOut()[pri:4, instance:Tests.CreateAnAccountTest@5c5a1b69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.CreateAnAccountTest@5c5a1b69]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-04-29T07:55:46 EET" finished-at="2022-04-29T07:55:46 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.CreateAnAccountTest -->
+      <class name="Tests.CheckoutProcedureTest">
+        <test-method status="PASS" signature="proceedToCheckoutFromCart()[pri:1, instance:Tests.CheckoutProcedureTest@2b552920]" name="proceedToCheckoutFromCart" duration-ms="2301" started-at="2022-04-29T07:55:29 EET" finished-at="2022-04-29T07:55:31 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToCheckoutFromCart -->
+        <test-method status="PASS" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.CheckoutProcedureTest@2b552920]" name="ScreenshotOnFailure" is-config="true" duration-ms="1" started-at="2022-04-29T07:55:31 EET" finished-at="2022-04-29T07:55:31 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=proceedToCheckoutFromCart status=SUCCESS method=CheckoutProcedureTest.proceedToCheckoutFromCart()[pri:1, instance:Tests.CheckoutProcedureTest@2b552920] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+        <test-method status="PASS" signature="NavigateToCheckout()[pri:2, instance:Tests.CheckoutProcedureTest@2b552920]" name="NavigateToCheckout" duration-ms="3272" started-at="2022-04-29T07:55:31 EET" depends-on-methods="Tests.CheckoutProcedureTest.proceedToCheckoutFromCart" finished-at="2022-04-29T07:55:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToCheckout -->
+        <test-method status="PASS" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.CheckoutProcedureTest@2b552920]" name="ScreenshotOnFailure" is-config="true" duration-ms="1" started-at="2022-04-29T07:55:34 EET" finished-at="2022-04-29T07:55:34 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigateToCheckout status=SUCCESS method=CheckoutProcedureTest.NavigateToCheckout()[pri:2, instance:Tests.CheckoutProcedureTest@2b552920] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+        <test-method status="PASS" signature="ProceedCheckoutFromAddress()[pri:3, instance:Tests.CheckoutProcedureTest@2b552920]" name="ProceedCheckoutFromAddress" duration-ms="2038" started-at="2022-04-29T07:55:34 EET" depends-on-methods="Tests.CheckoutProcedureTest.NavigateToCheckout" finished-at="2022-04-29T07:55:37 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProceedCheckoutFromAddress -->
+        <test-method status="PASS" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.CheckoutProcedureTest@2b552920]" name="ScreenshotOnFailure" is-config="true" duration-ms="1" started-at="2022-04-29T07:55:37 EET" finished-at="2022-04-29T07:55:37 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProceedCheckoutFromAddress status=SUCCESS method=CheckoutProcedureTest.ProceedCheckoutFromAddress()[pri:3, instance:Tests.CheckoutProcedureTest@2b552920] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+        <test-method status="PASS" signature="ProceedCheckoutFromShipping()[pri:4, instance:Tests.CheckoutProcedureTest@2b552920]" name="ProceedCheckoutFromShipping" duration-ms="2602" started-at="2022-04-29T07:55:37 EET" depends-on-methods="Tests.CheckoutProcedureTest.ProceedCheckoutFromAddress" finished-at="2022-04-29T07:55:39 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProceedCheckoutFromShipping -->
+        <test-method status="PASS" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.CheckoutProcedureTest@2b552920]" name="ScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-04-29T07:55:39 EET" finished-at="2022-04-29T07:55:39 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProceedCheckoutFromShipping status=SUCCESS method=CheckoutProcedureTest.ProceedCheckoutFromShipping()[pri:4, instance:Tests.CheckoutProcedureTest@2b552920] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+        <test-method status="PASS" signature="payBankWire()[pri:5, instance:Tests.CheckoutProcedureTest@2b552920]" name="payBankWire" duration-ms="1803" started-at="2022-04-29T07:55:39 EET" depends-on-methods="Tests.CheckoutProcedureTest.ProceedCheckoutFromShipping" finished-at="2022-04-29T07:55:41 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payBankWire -->
+        <test-method status="PASS" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.CheckoutProcedureTest@2b552920]" name="ScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-04-29T07:55:41 EET" finished-at="2022-04-29T07:55:41 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=payBankWire status=SUCCESS method=CheckoutProcedureTest.payBankWire()[pri:5, instance:Tests.CheckoutProcedureTest@2b552920] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+        <test-method status="PASS" signature="cofirmMyOrder()[pri:6, instance:Tests.CheckoutProcedureTest@2b552920]" name="cofirmMyOrder" duration-ms="2729" started-at="2022-04-29T07:55:41 EET" depends-on-methods="Tests.CheckoutProcedureTest.payBankWire" finished-at="2022-04-29T07:55:44 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cofirmMyOrder -->
+        <test-method status="PASS" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.CheckoutProcedureTest@2b552920]" name="ScreenshotOnFailure" is-config="true" duration-ms="1" started-at="2022-04-29T07:55:44 EET" finished-at="2022-04-29T07:55:44 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cofirmMyOrder status=SUCCESS method=CheckoutProcedureTest.cofirmMyOrder()[pri:6, instance:Tests.CheckoutProcedureTest@2b552920] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+      </class> <!-- Tests.CheckoutProcedureTest -->
+      <class name="Tests.OrderHistoryTest">
+        <test-method status="PASS" signature="getOrderRef()[pri:0, instance:Tests.OrderHistoryTest@2758fe70]" name="getOrderRef" duration-ms="2680" started-at="2022-04-29T07:55:44 EET" finished-at="2022-04-29T07:55:46 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderRef -->
+        <test-method status="PASS" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.OrderHistoryTest@2758fe70]" name="ScreenshotOnFailure" is-config="true" duration-ms="1" started-at="2022-04-29T07:55:46 EET" finished-at="2022-04-29T07:55:46 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getOrderRef status=SUCCESS method=OrderHistoryTest.getOrderRef()[pri:0, instance:Tests.OrderHistoryTest@2758fe70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+      </class> <!-- Tests.OrderHistoryTest -->
+      <class name="Tests.AddProductToCartTest">
+        <test-method status="PASS" signature="navigateToSubcategory()[pri:1, instance:Tests.AddProductToCartTest@627551fb]" name="navigateToSubcategory" duration-ms="5114" started-at="2022-04-29T07:55:19 EET" finished-at="2022-04-29T07:55:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSubcategory -->
+        <test-method status="PASS" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.AddProductToCartTest@627551fb]" name="ScreenshotOnFailure" is-config="true" duration-ms="1" started-at="2022-04-29T07:55:24 EET" finished-at="2022-04-29T07:55:24 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToSubcategory status=SUCCESS method=AddProductToCartTest.navigateToSubcategory()[pri:1, instance:Tests.AddProductToCartTest@627551fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+        <test-method status="PASS" signature="addProductToCart()[pri:2, instance:Tests.AddProductToCartTest@627551fb]" name="addProductToCart" duration-ms="4876" started-at="2022-04-29T07:55:24 EET" depends-on-methods="Tests.AddProductToCartTest.navigateToSubcategory" finished-at="2022-04-29T07:55:29 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method status="PASS" signature="ScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.AddProductToCartTest@627551fb]" name="ScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-04-29T07:55:29 EET" finished-at="2022-04-29T07:55:29 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductToCart status=SUCCESS method=AddProductToCartTest.addProductToCart()[pri:2, instance:Tests.AddProductToCartTest@627551fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnFailure -->
+      </class> <!-- Tests.AddProductToCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
