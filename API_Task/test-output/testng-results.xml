@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8065" started-at="2022-04-29T08:09:35 EET" finished-at="2022-04-29T08:09:43 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8065" started-at="2022-04-29T08:09:35 EET" finished-at="2022-04-29T08:09:43 EET">
+      <class name="Test.API">
+        <test-method status="PASS" signature="doAPost()[pri:0, instance:Test.API@1dfe2924]" name="doAPost" duration-ms="7001" started-at="2022-04-29T08:09:35 EET" finished-at="2022-04-29T08:09:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAPost -->
+        <test-method status="PASS" signature="getUserMail()[pri:0, instance:Test.API@1dfe2924]" name="getUserMail" duration-ms="519" started-at="2022-04-29T08:09:42 EET" finished-at="2022-04-29T08:09:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserMail -->
+        <test-method status="PASS" signature="getUsersAssociatedPosts()[pri:0, instance:Test.API@1dfe2924]" name="getUsersAssociatedPosts" duration-ms="460" started-at="2022-04-29T08:09:43 EET" finished-at="2022-04-29T08:09:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersAssociatedPosts -->
+      </class> <!-- Test.API -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
