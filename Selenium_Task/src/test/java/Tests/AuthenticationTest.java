@@ -12,7 +12,6 @@ import Pages.HomePage;
 public class AuthenticationTest extends TestBase{
 	HomePage homeObject;
 	AuthenticationPage authenticateObj;
-	HomePage homeObj;
 
 	/// for Assertion 
 		String authTxt = LoadProperties.data.getProperty("AuthenticateTxt");
@@ -38,8 +37,8 @@ public class AuthenticationTest extends TestBase{
 		authenticateObj.setEmail(email);
 		authenticateObj.setPassword(password);
 		authenticateObj.clickSignInBtn();
-		homeObj = new HomePage(driver);
-		wait.until(ExpectedConditions.visibilityOf(homeObj.welcomeTxt));
-		Assert.assertTrue(homeObj.welcomeTxt.getText().contains(welcomeToMyAccountTxt));
+		homeObject = new HomePage(driver);
+		wait.until(ExpectedConditions.visibilityOf(homeObject.welcomeTxt));
+		Assert.assertTrue(homeObject.welcomeTxt.getText().contains(welcomeToMyAccountTxt));
 	}
 }
